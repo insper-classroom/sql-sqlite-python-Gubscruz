@@ -44,10 +44,10 @@ Iremos utilizar a plataforma https://sqliteonline.com/ para treinar comandos SQL
    - **Enunciado**: Liste os 5 jogos mais antigos.  (copie e cole o comando e as 5 primeiras linhas do resultado aqui)
    - **Query**:
      ```sql
-      
+      SELECT * FROM vgsales_pbi ORDER BY year ASC LIMIT 5;
      ```
    - **Resultado**
-    
+    ![Alt text](image-3.png)
 
 
 5. **Jogos de Aventura com mais vendas na América do Norte**:
