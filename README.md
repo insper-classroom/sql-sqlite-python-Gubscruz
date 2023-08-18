@@ -33,9 +33,10 @@ Iremos utilizar a plataforma https://sqliteonline.com/ para treinar comandos SQL
    - **Enunciado**: Liste os 5 jogos mais recentes lançados.  (copie e cole o comando e as 5 primeiras linhas do resultado aqui)
    - **Query**:
      ```sql
-      
+      SELECT * FROM vgsales_pbi ORDER BY year DESC LIMIT 5;
      ```
    - **Resultado**
+   ![Alt text](image-2.png)
     
 
 
