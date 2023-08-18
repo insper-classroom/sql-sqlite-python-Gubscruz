@@ -3,18 +3,20 @@
 
 Material de apoio sobre SQL: https://www.devmedia.com.br/guia/guia-completo-de-sql/38314
 
+## Aula 1 - 08/09/2021
+SQLITE só persiste em arquivo, ele nao é o arquivo
 ### Exercício 1: SQL
 
 Iremos utilizar a plataforma https://sqliteonline.com/ para treinar comandos SQL básicos. O arquivo que usaremos é "vgsales_pbi.csv" que pode ser baixado no link https://drive.google.com/file/d/1fhcUzrJau2w5zcQ1B3wpKhOv9mWet0xR/view?usp=sharing.
 
 1. **Jogos da plataforma Xbox One**:
    - **Enunciado**: Liste todos os jogos disponíveis para a plataforma Xbox One. (copie e cole o comando e as 5 primeiras linhas do resultado aqui)
-   - **Query**:
+   - **Query**: SELECT Name FROM vgsales_pbi;
      ```sql
-      
+        SELECT Name FROM vgsales_pbi;
      ```
    - **Resultado**
-    
+    ![Alt text](image.png)
 
 
 2. **Jogos de Ação após 2010**:
